@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis:wght@300&family=Open+Sans+Condensed:wght@300&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pathway+Gothic+One&display=swap');
+
+.header {
+    display: grid;
+    grid-template-columns: repeat( 2 , 3fr);
+    background-image: linear-gradient(rgb(255, 209, 118), rgb(255, 255, 255));  
+}
+
+.text-header {
+    margin-left: 1vw;
+    font-size: 6vh;
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+.login-header {
+    margin-left: auto; 
+    margin-right: 0;
+}
+.notification-header {
+    text-align: left;
+    margin: 0;
+    font-size: 4vmin;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 31.7vw;
+    column-gap: 20px;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.notification-list-container {
+    width: 40vmax;
+    margin-left: auto;
+    margin-right: auto;
+}
+.notificationcontainer {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-repeat: repeat-y;
+    height: 58vmin;
+    overflow-x: scroll;
+    overflow-y: auto;
+    white-space: nowrap;
+    padding:1vmin;
+    margin-bottom: 100px;
+}
+.card {
+    display: inline-block;
+  }
+.scrollable {
+    height: 1200px;
+    border: 5px solid yellow;  
+  }
+
+.product {
+border-radius: 10px;
+border: 2px solid rgb(211, 216, 213);
+padding:  20px;
+width: auto;
+font-size: 1vmin;
+margin: 10px;
+background-image: linear-gradient(rgb(168, 127, 233), rgba(203, 45, 184, 0.742));
+}
+
+.message {
+    border-radius: 10px;
+    border: 2px solid rgb(211, 216, 213);
+    padding:  20px;
+    width: auto;
+    font-size: 1vmin;
+    margin: 10px;
+    background-image: linear-gradient(rgb(232, 230, 173), rgb(228, 161, 45));  
+}
+.contract {
+    border-radius: 10px;
+    border: 2px solid rgb(211, 216, 213);
+    padding:  20px;
+    width: auto;
+    font-size: 1vmin;
+    margin: 10px;
+    background-image: linear-gradient(rgb(173, 232, 226), rgb(152, 199, 56));  
+}
+
+.inline {
+    display:inline-block;
+}
+
+.date {
+    font-size: 2vmin;
+    float: right;
+}
+
+.notification-item-grid-container {
+    display: grid;
+    grid-template-columns: 17vmin 20vmin;
+    
+}
+
+.notification-item {
+    margin: 0;
+    font-size: 2.8vmin;
+    font-family: 'Dosis', sans-serif;
+}
+
+.message-item {
+    margin:auto;
+    text-align:justify;
+    white-space: pre-line;
+    width: 20vw;
+}
+.message-image {
+    height: 70%;
+    width: 100%;
+    padding-top: 2vmin;
+
+}
+
+.notification-type-header {
+    margin: 0;
+    font-size: 4vmin;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+  
+button {
+    height: 8vmin;
+    width: 25vmin;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 3vmin;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.is-active {
+    border-color: rgb(255, 185, 9);
+    color: rgb(255, 185, 9);
+    border-radius: 10px;
+}
+
+.no-notifications {
+    color: rgb(216, 216, 216);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 5vmin;
+    padding: 1vw;
+    margin:auto;
+    white-space: pre-line;
+    width: 50vmin;
+}
+
+.footer {
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(247, 220, 166));  
+    height: 10vmin;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footer-item {
+    font-size: 5vmin;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+span {
+font-size: 2vmin;}
+
